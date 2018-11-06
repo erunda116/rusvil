@@ -1,0 +1,116 @@
+.responsive-img{
+    width: 100%;
+    height: 100%;
+}
+<<<<<<< HEAD
+.fordev{
+    width: 100%;
+    height: 50px;
+}
+=======
+>>>>>>> 06.11.2018
+.catalog-menu-menu-head__h3{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.catalog-description__h3{
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+/*catalog*/
+.catalog{
+    background: #f1f1f1;
+}
+.catalog-menu-menu{
+    padding-right: 0;
+}
+.catalog-menu-menu-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 15px 15px;
+}
+.catalog-menu-menu-head__a{
+    display: block;
+    width: 27px;
+    height: 23px;
+    background: url('../img/decoration/download.png');
+}
+.catalog-menu-goods{
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 2, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0;
+    padding-bottom: 15px;
+}
+.catalog-menu-goods-item{
+    border: 1px solid #d5d5d5;
+    margin-bottom: 15px;
+}
+
+
+
+/*CATALOG SUBMENU*/
+.catalog-menu-menu-menu{
+    padding-left: 0;
+    margin: 0;
+}
+
+.catalog-menu-menu-menu__li{
+    list-style: none;
+    border-bottom: 1px solid #d5d5d5;
+}
+.catalog-menu-menu-menu__a{
+    text-decoration: none;
+    color: #333333;
+    padding: 15px 0;
+    padding-left: 60px;
+    position: relative;
+    display: block;
+}
+.catalog-menu-menu-menu__a_one:before,
+.catalog-menu-menu-menu__a_two:before,
+.catalog-menu-menu-menu__a_three:before,
+.catalog-menu-menu-menu__a_four:before,
+.catalog-menu-menu-menu__a_five:before{
+    position: absolute;
+    left: 15px;
+    top: 7px;
+}
+.catalog-menu-menu-menu__a_one:before{
+    content: url('../img/decoration/smallspring01.png');
+}
+.catalog-menu-menu-menu__a_two:before{
+    content: url('../img/decoration/smallspring02.png');
+}
+.catalog-menu-menu-menu__a_three:before{
+    content: url('../img/decoration/smallspring03.png');
+}
+.catalog-menu-menu-menu__a_four:before{
+    content: url('../img/decoration/smallspring04.png');
+    left: 0;
+}
+.catalog-menu-menu-menu__a_five:before{
+    content: url('../img/decoration/smallspring05.png');
+}
+.catalog-menu-menu-menu__a_active{
+    background: #0b687a;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.catalog-description__h3{
+    font-size: 1.5em;
+}
+.catalog-description-text__p{
+    color: #717171;
+}
