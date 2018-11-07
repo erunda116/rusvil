@@ -22,14 +22,13 @@ html {
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
-<<<<<<< HEAD
+
 *{
     box-sizing: border-box;
 }
-=======
 
->>>>>>> 06.11.2018
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
