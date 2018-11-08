@@ -139,10 +139,10 @@
 <section class="about">
     <div class="container about-container">
         <div class="row">
-            <div class="about-photo col-sm-6 col-lg-7">
+            <div class="about-photo col-sm-6 col-lg-8">
                 <!--<img src="img/decoration/aboutphoto.jpg" class="responsive-img" alt="">-->
             </div>
-            <div class="about-context col-sm-6 col-lg-5">
+            <div class="about-context col-sm-6 col-lg-4">
                 <div class="about-context-head">
                     <h3 class="about-context-head__h3">РУСВИЛ — это:</h3>
                     <a href="#" class="about-context-head__a"></a>
@@ -269,6 +269,24 @@
             </div>
         </div>
     </div>
+    <!--HIDDEN FEEDBACK-->
+    <div class="hidden-feedback-container" id="hiddenFeedbackContainer">
+        <div class="hidden-feedback-container-form" id="hiddenFeedbackContainerForm">
+            <span class="hidden-feedback-container-form__span" id="hiddenFeedbackContainerFormHide"></span>
+            <form action="" class="footer-contacts-form">
+                <h3 class="footer-contacts-form__h3">свяжитесь с нами</h3>
+                <input type="text" class="footer-contacts-form__input" name="name" placeholder="Имя">
+                <input type="text" class="footer-contacts-form__input" name="email" placeholder="E-mail">
+                <input type="text" class="footer-contacts-form__input" name="phone" placeholder="Телефон">
+                <input type="text" class="footer-contacts-form__input" name="company" placeholder="Компания">
+                <textarea name="message" class="footer-contacts-form__textarea" id="" cols="30" rows="3"></textarea>
+                <p class="footer-contacts-form__p">* поля обязательные для заполнения</p>
+                <input type="submit" class="footer-contacts-form__input_submit send-button">
+            </form>
+        </div>
+    </div>
+
+
 
     <div class="footer-contacts">
         <div class="container footer-contacts-container">
@@ -299,8 +317,8 @@
                         </div>
                         <div class="footer-contacts-content-contacts_social">
                             <p>Вы в соц. сетях: </p><a href="" class="footer-contacts-content-contacts_social__a"></a><a href="" class="footer-contacts-content-contacts_social__a"></a>
+                            <span class="footer-adaptive-form__span send-button" id="adaptiveForm">Обратная связь</span>
                         </div>
-                        <span class="footer-adaptive-form__span send-button">Обратная связь</span>
                         <div class="footer-contacts-content-contacts_menu">
                             <ul class="footer-contacts-content-contacts_menu__ul">
                                 <li class="footer-contacts-content-contacts_menu__li">
