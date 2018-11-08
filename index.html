@@ -44,7 +44,7 @@
             <div class="header-container-menu-container">
                 <div class="row justify-content-end">
                     <input type="checkbox" id="headerAdaptiveMenu" class="adaptive-menu__input">
-                    <ul class="header-container-menu-ul col-lg-9">
+                    <ul class="header-container-menu-ul col-lg-9" id="headerContainerMenuUl">
 
                         <li class="header-container-menu-ul__li">
                             <a href="" class="header-container-menu-ul__a">Главная</a>
@@ -76,13 +76,13 @@
                             <a href="" class="header-container-menu-ul__a">База знаний</a>
                         </li>
                         <li class="header-container-menu-ul__li">
-                            <a href="" class="header-container-menu-ul__a">О компании</a>
+                            <a href="" class="header-container-menu-ul__a">О компании <span class="header-submenu__span"></span></a>
                         </li>
                         <li class="header-container-menu-ul__li">
                             <a href="" class="header-container-menu-ul__a">Заказать</a>
                         </li>
                     </ul>
-                    <label for="headerAdaptiveMenu" class="adaptive-menu__label"></label>
+                    <label for="headerAdaptiveMenu" id="headerAdaptiveMenuLabel" class="adaptive-menu__label"></label>
                 </div>
             </div>
         </div>
@@ -258,7 +258,7 @@
     <div class="footer-order">
         <div class="container">
             <div class="row justify-content-end">
-                <div class="col-sm-6 col-lg-7">
+                <div class="footer-order-item col-sm-6 col-lg-7">
                     <h3 class="footer-order__h3">
                         Более 1000 компаний уже являются  нашими партнерами,  станьте и вы!
                     </h3>

@@ -56,3 +56,23 @@ function showFeedback(){
     }
 };
 
+/*
+//adaptive menu hide animation
+let headerAdaptiveMenuLabel = document.querySelector('#headerAdaptiveMenuLabel');
+headerAdaptiveMenuLabel.addEventListener('click', animationHidddenAdaptiveMenu);
+
+function animationHidddenAdaptiveMenu() {
+    let inputCheckbox = document.querySelector('#headerAdaptiveMenu');
+    if (inputCheckbox.checked) {
+        //get menu block
+        let blockMenu = document.querySelector('#headerContainerMenuUl');
+        // get start property
+        let startRightProperty = blockMenu.offsetWidth;
+        //animation
+        let animate = setInterval(function () {
+            console.log(1);
+            //blockMenu.style.right = (startRightProperty - 20) + "px";
+        }, 10);
+    }
+}
+*/
